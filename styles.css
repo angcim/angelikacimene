@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand');
+
+/*** background and body ***/
+body {
+  color: #FFF;
+  background-color: #FFEFED;
+  font-family: 'Quicksand', sans-serif;
+  width: 1020px;
+  margin: auto;
+  display: block;
+}
+
+main, aside{
+  color: #FFEFED;
+  background-color: #FFF;
+  width: 1020px;
+  padding: 20px 0 20px 0;
+  margin: auto;
+}
+
+#container {
+  overflow:hidden;
+}
+
+div {
+  float:left;
+}
+
+/*** headers ***/
+header {
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+  color: #FFF;
+  background: rgb(254,236,234);
+background: linear-gradient(180deg, rgba(254,236,234,1) 0%, rgba(241,144,132,1) 89%, rgba(227,113,100,1) 100%);
+  width: 1020px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#headerimg {
+  width: 1020px;
+  background-color: #FFF;
+  color: #FFEFED;
+}
+
+h2, h3 {
+  color: #FFF;
+text-align: center;
+  background: rgb(254,236,234);
+  background: linear-gradient(180deg, rgba(254,236,234,1) 0%, rgba(251,203,198,1) 14%, rgba(245,184,177,1) 29%, rgba(241,144,132,1) 60%, rgba(227,113,100,1) 100%);
+}
+
+h2 {
+  padding: 10px 0 10px 0;
+}
+
+h3 {
+  padding: 11.25px;
+}
+
+/*** link styling ***/
+ul, li {
+  list-style-type: none;
+  margin-left: -25px;
+}
+
+a {
+  text-decoration: none;
+  color: #66352D;
+}
+
+a:hover {
+  color: #E37164
+}
+
+/*** major projects ***/
+#majorprojects {
+  width: 980px;
+  text-align: center;
+  margin: auto;
+}
+
+#majorprojects img:hover {
+ transition: opacity 1s ease-in-out;
+ opacity: 0.5;
+}
+
+/*** exercises ***/
+#exercises {
+  float:left;
+  width: 640px;
+  padding: 20px;
+  padding-bottom:100px;
+  line-height: 1.5em;
+}
+
+section {
+  background-color: #FFF;
+}
+
+.special {
+  margin-left: 90px;
+}
+
+/*** useful links and interesting articles ***/
+aside {
+  float:right;
+  width: 300px;
+  padding: 20px;
+  margin-top: -18px;
+  line-height: 1.25em;
+
+}
+
+.special2 {
+  margin-left: 45px;
+}
+
+.special3 {
+  margin-left: 125px;
+}
+
+/*** footer ***/
+footer {
+  background-color: #D46A5D;
+  color: #FFF;
+  width: 1020px;
+  height: 100px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  clear:both;
+  line-height: 1.5em;
+}
+
+.icons {
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #headerimg{
+    display:none;
+  }
+
+  .icons {
+    width:100px;
+    margin-left: 60px;
+  }
+
+
+  h1 {
+    width:600px;
+    font-size:45px;
+    text-align: left;
+    margin-left:30px;
+  }
+
+  h2, h3 {
+    width: 600px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: -20px;
+  }
+
+  #exercises{
+    padding-right:10px;
+  }
+
+  #majorprojects{
+    text-align: left;
+  }
+
+.special, .special2, .special3{
+    margin-left:30px;
+  }
+
+.special4 {
+  text-align: left;
+}
+
+aside {
+  width: 600px;
+  float:left;
+}
+
+  footer {
+    width: 600px;
+    text-align: left;
+    font-size: 16px;
+    padding-left:125px;
+  }
+
+
+}

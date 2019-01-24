@@ -1,0 +1,193 @@
+#main {
+  font-size: 90px;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin-top: -1px;
+  padding-bottom: 300px;
+}
+
+#miniheader {
+  font-size: 50px;
+  margin-left: 800px;
+  margin-top: -300px;
+  background-color: #000000;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#introduction {
+  width: 1200px;
+  text-indent: 50px;
+  font-size: 30px;
+  margin-left: 225px;
+  margin-top: 50px;
+  color: #FFFFFF;
+  background-color: inherit;
+  text-align: center;
+  line-height: 1em;
+}
+
+#gametitle {
+  margin-left: -300px;
+  margin-top: 100px;
+  margin-right: 435px;
+  border-bottom: 2px solid #000000;
+  font-size: 40px;
+}
+
+#game {
+  margin-top: -70px;
+  font-size: 30px;
+  margin-left: 500px;
+  margin-bottom: 125px;
+}
+
+#gamep {
+  margin-top: 10px;
+}
+
+#visualrhetoric, #multicomps, #feedforwardback, #theorytitle {
+  font-size: 50px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.links {
+  margin-top: 85px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #000000;
+}
+
+#l1 {
+  margin-top: -5px;
+  margin-left: 200px;
+}
+
+#l2 {
+  margin-top: -24px;
+  margin-left: 400px;
+}
+
+#l3 {
+  margin-top: -24px;
+  margin-left: 700px;
+}
+
+#l5 {
+  margin-top: -24px;
+  margin-left: 1200px;
+}
+
+#l4 {
+  margin-top: -24px;
+  margin-left: 1035px;
+}
+
+a {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+a:hover {
+  background-color: #FFFFFF;
+  color: #a5a4a4;
+  border-bottom: 5px solid#a5a4a4;
+  padding-bottom: 17px;
+}
+
+p {
+  width: 700px;
+  text-indent: 50px;
+  margin-left: 50px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.p1 {
+  margin-top: -490px;
+}
+
+.p11 {
+  margin-bottom: -10px;
+}
+
+.p2 {
+  margin-top: -940px;
+}
+
+.p22 {
+  margin-bottom: 325px;
+}
+
+.p3 {
+  margin-top: -940px;
+}
+
+.p33 {
+  margin-bottom: 30px;
+}
+
+img {
+  margin-left: 800px;
+  margin-top: 40px;
+}
+
+h2:hover {
+  background-color: #FFFFFF;
+  color: #ff0000;
+}
+
+#visualrhetoric:hover, #multicomps:hover, #feedforwardback:hover, #theorytitle:hover {
+  font-size: 50px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background-color: #000000;
+  color: #ff0000;
+}
+
+#theory {
+  margin-bottom: 75px;
+  margin-top: 80px;
+}
+
+#resources {
+  border-top: 1px solid #a5a4a4;
+  padding-top: 10px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.reftext {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+#keyconcepts {
+  padding-left: 175px;
+  font-size: 75px;
+  border-top: 5px solid #000000;
+}
+
+#multicomps {
+  margin-top: 100px;
+}
+
+#feedforwardback {
+  margin-top: 100px;
+}
+
+#theoryp {
+  margin-top: 30px;
+}

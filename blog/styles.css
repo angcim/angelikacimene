@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Muli:400,600');
+body {
+  width: 1020px;
+  margin: auto;
+  background-color: #CBEBF2;
+}
+
+
+h3, p, time, article, section {
+  background-color: #FFF;
+}
+
+/*** headers ***/
+
+header {
+  font-family: 'Muli';
+  background-color: #88BDBD;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #EEE8D1;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Muli';
+}
+
+h2 {
+  background-color: #58B1BF;
+  padding: 20px 0 20px 0;
+  color: #EEE8D1;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Muli';
+  color: #33848F;
+}
+
+h3, p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*** links ***/
+
+nav {
+  background-color: #0D1B25;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+a {
+  font-family: 'Muli';
+  text-decoration: none;
+  color: #EEE8D1;
+}
+
+a:hover, .special {
+  color: #58B1BF;
+}
+
+.special {
+  color: #33848F;
+}
+
+/*** paragraphs and posts ***/
+
+p {
+  font-family: 'Lora';
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+time {
+  font-family: 'Lora';
+  font-size: 11px;
+  color: gray;
+  margin-left: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.moreposts {
+  margin-top: -20px;
+}
+
+#recentpost {
+  margin-top: 0;
+}
+
+.posts {
+  width: 700px;
+  margin: auto;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+.poststime {
+  font-size: 16px;
+  font-style: italic;
+  margin-left: 475px;
+}
+
+/*** resources ***/
+
+.resources {
+  color: #000;
+  background-color: #FFF;
+  list-style-type: none;
+  font-size: 12px;
+  font-family: 'Lora', serif;
+  line-height: 1.5em;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+#resources {
+  border-top: 1px solid #000;
+  background-color: #FFF;
+  color: #000;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: -10px;
+}
+
+/*** footer ***/
+
+footer {
+  clear: both;
+  padding: 20px;
+  background-color: #091B27;
+}
+
+#name {
+  background-color: #091B27;
+  color: #EEE8D1;
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 600px;
+    margin: auto;
+    background-color: #FFF;
+  }
+  /*** headers ***/
+  #blogheader {
+    background-color: #C2E2ED;
+  }
+  img {
+    width: 65%;
+    padding-right: 220px;
+  }
+  h1 {
+    margin-left: 50px;
+    text-align: left;
+  }
+  h2 {
+    padding-left: 20px;
+    text-align: left;
+  }
+  .blogheaders {
+    margin-top: -16px;
+  }
+  /*** sections ***/
+  #top {
+    margin-top: -25px;
+  }
+  #top, #bottom {
+    padding-bottom: 10px;
+  }
+  #bottom {
+    margin-top: 20px;
+  }
+  /*** links ***/
+  nav {
+    margin-top: -20px;
+  }
+  li {
+    padding: 10px;
+    padding-left: 45px;
+    margin-left: -40px;
+    font-size: 18px;
+  }
+  .linkcolor {
+    background-color: #88CAC8;
+  }
+  /*** posts ***/
+  .posts {
+    width: 600px;
+  }
+  .poststime {
+    font-size: 13px;
+    margin: 0;
+    margin-left: 20px;
+  }
+  /*** aside ***/
+  .resources {
+    line-height: 0;
+  }
+  aside {
+    background-color: #FFF;
+    margin-top: -15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  /*** footer ***/
+  #name {
+    margin-left: 0;
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  /*** headers ***/
+  #blogheader {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  /*** images ***/
+  img {
+    padding-bottom: 35px;
+  }
+  /*** links ***/
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1;
+  }
+  nav {
+    margin-top: -20px;
+    margin-bottom: -25px;
+    padding: 5px 0 5px 0;
+  }
+  #link2, #links5 {
+    margin-left: -55px;
+  }
+  #link3 {
+    margin-left: -20px;
+  }
+  #link4 {
+    margin-left: -40px;
+  }
+  #link5 {
+    margin-left: -55px;
+  }
+  #link6 {
+    margin-left: 0;
+  }
+  /*** sections and articles ***/
+  #top {
+    margin-left: 0;
+    margin-top: 25px;
+    width: 650px;
+  }
+
+  #bottom, .section{
+    width: 350px;
+    float:left;
+    margin-top: 45px;
+    margin-left: 20px;
+    }
+
+    #bottom{
+      padding-bottom: 1px;
+    }
+
+  #intresearch {
+    padding-bottom: 20px;
+  }
+  #webfont {
+    padding-bottom: 20px;
+  }
+  /*** aside ***/
+  aside {
+    background-color: #FFF;
+    padding-bottom: 45px;
+    margin-top: -50px;
+  }
+  .resources {
+    font-size: 10px;
+    background-color: #FFF;
+    color: #000;
+  }
+  .resources3 {
+    margin-top: 50px;
+  }
+  .special2 {
+    float: left;
+    margin-left: 80px;
+  }
+}

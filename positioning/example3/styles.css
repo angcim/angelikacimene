@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding: 100px;
+  font-family: Arial;
+}
+
+header {
+  margin: auto;
+  width: 1000px;
+  height: 150px;
+  padding: 50px;
+  background-color: orange;
+  text-align: center;
+  position: relative;
+}
+
+#mainnav {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+}
+
+#mainnav ul li {
+  float: left;
+  list-style-type: none;
+}
+
+#mainnav ul li a {
+  display: block;
+  height: 50px;
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+  padding: 0px 15px;
+  line-height: 50px;
+  border-right: 2px solid black;
+}
+
+#mainnav ul li:last-of-type a {
+  border: none;
+}

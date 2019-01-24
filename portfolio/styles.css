@@ -1,0 +1,965 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway');
+
+
+body{
+  width: 1100px;
+  margin: auto;
+  background-color:#FBF8D3;
+}
+
+/*** Navigation ***/
+#navigation ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation ul {
+	display: flex;
+}
+
+#navigation{
+  background:#041D23;
+}
+
+#navigation .nav{
+  padding: 20px 0 20px 0;
+}
+
+
+#navigation ul li a {
+	display:block;
+	background:#041D23;
+	line-height:36px;
+	padding-top:10px;
+	text-align:center;
+	text-decoration:none;
+	color:#FBF8D3;
+  font-family:'raleway';
+  font-size: 19px;
+}
+
+#navigation ul li ul li a{
+  padding: 15px 50px 0 50px;
+}
+
+#navigation ul li ul {
+	position:absolute;
+	left:-9999px;
+  padding-right:20px;
+}
+
+#navigation ul li:hover ul {
+	left:auto;
+  margin-left:-50px;
+  margin-top: 20px;
+
+}
+
+#navigation ul li ul {
+	display: block;
+}
+
+#navigation ul li ul li a {
+	background: #88C43F;
+	border-bottom:1px solid #FBF8D3;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li ul li a:hover{
+	background-color: #D66971;
+  border-radius: 0%;
+}
+
+#navigation ul li a:hover{
+border-radius: 45%;
+	background-color: #88C43F;
+  color:#FFF;
+}
+
+
+.up a{
+  padding-top: 50px;
+  float:right;
+  font-size: 100px;
+  color:  #8F9396;
+}
+
+.up :hover{
+  color: #041D23;
+}
+
+
+
+/*** headers ***/
+h1{
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Pacifico';
+  font-size: 150px;
+  background-color: #5CB99E;
+  color: #FBF8D3;
+  padding: 150px 0 125px 0;
+  line-height: 1.5em;
+}
+
+/*** About Me ***/
+main h2 {
+margin-top: 20px;
+margin-bottom: 110px;
+  margin-left: 70px;
+  font-family: 'Pacifico';
+  font-size: 100px;
+  color: #FBF8D3;
+}
+#aboutme {
+  margin-top: -120px;
+  background-color:#CC525B;
+  padding:100px 70px 200px 0;
+  font-family: 'raleway';
+  color: #4A1519;
+  font-size: 16px;
+  line-height: 1.5em;
+
+}
+#portrait {
+  border-radius: 30%;
+  margin-top: -85px;
+  width: 35%;
+  float:left;
+  padding: 70px;
+}
+
+
+#aboutme a {
+  padding-left: 65px;
+    color: #86CEEB;
+    text-decoration: none;
+  }
+#aboutme a:hover{
+  color: #88C43F;
+}
+
+/*** Portfolio Page ***/
+
+#work p {
+margin: auto;
+text-align: left;
+  width: 700px;
+  font-size: 16px;
+  font-family: 'raleway';
+  padding-bottom: 20px;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  text-indent: 60px;
+  line-height: 1.5em;
+}
+
+#work {
+  padding-left: 10px;
+  margin-top: 0;
+  width: 1100px;
+}
+.work {
+  border-radius: 0;
+width: 30%;
+  padding: 10px;
+  opacity: 1;
+  box-shadow:
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+
+.work:hover{
+  border-radius: 50%;
+  transition: border-radius 5s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 0.5;
+    border-radius: 50%;
+  padding:10px;
+}
+
+/*** Projects ***/
+#project1 section, #project2 section, #project3 section, #project4 section, #project5 section, #project6 section, #project7 section, #project8 section, #project9 section{
+  width: 1100px;
+  margin:auto;
+}
+#project1 article ,#project2 article, #project3 article, #project4 article, #project5 article , #project6 article, #project7 article, #project8 article, #project9 article{
+  background-color: #FFF;
+}
+
+.project1 h2,.project2 h2, .project3 h2, .project4 h2, .project5 h2, .project6 h2, .project7 h2, .project8 h2, .project9 h2{
+  font-family: 'Pacifico';
+  font-size: 100px;
+  margin:0;
+  text-align: center;
+  margin-top:-101px;
+  padding:50px;
+  background: #FFF;
+}
+
+#project1 img, #project2 img, #project3 img, #project4 img, #project5 img , #project6 img, #project7 img, #project8 img , #project9 img{
+  padding: 20px;
+}
+
+#project1 p, #project2 p, #project3 p, #project4 p, #project5 p , #project6 p, #project7 p, #project8 p , #project9 p{
+  width: 490px;
+  font-family: 'raleway';
+  font-size:15px;
+  padding: 20px 30px 20px 20px;
+  line-height: 1.75em;
+  margin-top:0;
+  margin-left: 20px;
+}
+
+#project1 .specialtext, #project2 .specialtext, #project3 .specialtext, #project4 .specialtext, #project5 .specialtext, #project6 .specialtext, #project7 .specialtext, #project8 .specialtext, #project9 .specialtext{
+  margin-top:20px;
+  font-size:20px;
+  padding-bottom: 50px;
+}
+/*** Project 1 ***/
+.project1 h2{
+  color: #88C43F;
+}
+
+#project1 img{
+  width: 90%;
+  background:#88C43F;
+margin-bottom: 30px;
+}
+
+#project1 p{
+  background: #88C43F;
+  margin-bottom: 30px;
+}
+
+#project1 section{
+  display:block;
+}
+
+#project1 article{
+  display:flex;
+  flex-direction: row-reverse;
+}
+
+ .specialproject{
+  margin-top: 12px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+/*** Project 2 ***/
+.project2 h2{
+  color: #E39562;
+}
+
+#project2 img{
+  width: 85%;
+  background:#E39562;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project2 p{
+  background: #E39562;
+}
+
+#project2 section{
+  display:block;
+}
+
+#project2 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader{
+  font-size:125px;
+  padding: 125px 0 125px 0;
+}
+
+/*** Project 3 ***/
+.project3 h2{
+  color: #FFC14C;
+}
+
+#project3 img{
+  width: 85%;
+  background:#FFC14C;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project3 p{
+  background: #FFC14C;
+}
+
+#project3 section{
+  display:block;
+}
+
+#project3 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader2{
+  font-size:110px;
+  padding: 150px 0 150px 0;
+}
+
+/*** Project 4 ***/
+.project4 h2{
+  color: #999999;
+}
+
+#project4 img{
+  width: 85%;
+  background:#999999;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project4 p{
+  background: #999999;
+}
+
+#project4 section{
+  display:block;
+}
+
+#project4 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader2{
+  font-size:110px;
+  padding: 150px 0 150px 0;
+}
+
+/*** Project 5 ***/
+.project5 h2{
+  color: #97A5F7;
+}
+
+#project5 img{
+  width: 85%;
+  background:#97A5F7;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project5 p{
+  background: #97A5F7;
+}
+
+#project5 section{
+  display:block;
+}
+
+#project5 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader3{
+  font-size:100px;
+  padding: 150px 0 150px 0;
+}
+
+/*** Project 4 ***/
+.project4 h2{
+  color: #999999;
+}
+
+#project4 img{
+  width: 85%;
+  background:#999999;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project4 p{
+  background: #999999;
+}
+
+#project4 section{
+  display:block;
+}
+
+#project4 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader2{
+  font-size:110px;
+  padding: 150px 0 150px 0;
+}
+
+/*** Project 6 ***/
+.project6 h2{
+  color: #9EE2FF;
+}
+
+#project6 img{
+  width: 85%;
+  background:#BDEBFF;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project6 p{
+  background: #BDEBFF;
+}
+
+#project6 section{
+  display:block;
+}
+
+#project6 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader4{
+  font-size:110px;
+  padding: 110px 0 110px 0;
+}
+
+.specialproject{
+ margin-top: 12px;
+ margin-left: 20px;
+ overflow: hidden;
+}
+
+/*** Project 7 ***/
+.project7 h2{
+  color: #F5654C;
+}
+
+#project7 img{
+  width: 85%;
+  background:#F5654C;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project7 p{
+  background: #F5654C;
+}
+
+#project7 section{
+  display:block;
+}
+
+#project7 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader3{
+  font-size:100px;
+  padding: 150px 0 150px 0;
+}
+
+.specialproject{
+  width:30%;
+ margin-top: 12px;
+ margin-left: 20px;
+ overflow: hidden;
+}
+
+/*** Project 8 ***/
+.project8 h2{
+  color: #8CDEA7;
+}
+
+#project8 img{
+  width: 85%;
+  background:#8CDEA7;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project8 p{
+  background: #8CDEA7;
+}
+
+#project8 section{
+  display:block;
+}
+
+#project8 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader3{
+  font-size:100px;
+  padding: 150px 0 150px 0;
+}
+
+.specialproject{
+  width:30%;
+ margin-top: 12px;
+ margin-left: 20px;
+ overflow: hidden;
+}
+
+/*** Project 9 ***/
+#project9 a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+#project9 a:hover{
+  text-decoration: none;
+  color:gray;
+}
+
+.project9 h2{
+  color: #D1513B;
+  padding-bottom: 80px;
+}
+
+#project9 img, iframe{
+  width: 85%;
+  background:#D1513B;
+margin-bottom: 30px;
+padding: 30px;
+}
+
+#project9 p{
+  background: #D1513B;
+}
+
+#project9 section{
+  display:block;
+}
+
+#project9 article{
+  width: 1100px;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.specialheader3{
+  font-size:100px;
+  padding: 150px 0 150px 0;
+}
+
+.specialproject{
+  width:30%;
+ margin-top: 12px;
+ margin-left: 20px;
+ overflow: hidden;
+}
+
+iframe{
+  border: 0;
+}
+
+/*** aside ***/
+aside{
+  width: 1100px;
+  display:flex;
+  background: #FFF;
+  padding: 50px 0 50px 0px;
+}
+aside a{
+  text-decoration: none;
+  font-family: 'Pacifico';
+  font-size: 80px;
+  padding-left: 190px;
+  color: #E56459;
+}
+aside a:hover{
+  color: #041D23;
+}
+aside p{
+  flex:1;
+}
+
+
+/*** footer ***/
+footer {
+  text-align: left;
+
+  background-color: #86CEEB;
+  padding: 50px;
+  font-family: 'raleway';
+color: #FBF8D3;
+font-size: 25px;
+line-height: 1.5em;
+}
+
+.footerimg{
+  margin-left: 250px;
+  width: 20%;
+  padding-right: 30px;
+  border-radius: 50%;
+  float:left;
+}
+
+footer a{
+  text-decoration: none;
+  color: #248F91;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #CC525B;
+}
+
+@media only screen and (max-width: 600px){
+body{
+  width: 600px;
+  background: #FFF;
+}
+
+/*** headers ***/
+h1{
+  text-align: left;
+  font-size: 75px;
+  padding: 45px 0 100px 40px;
+}
+
+#project1 h1, .specialheader, .specialheader2, .specialheader3, .specialheader4{
+  font-size:50px;
+  padding:75px 0 100px 40px;
+}
+/*** Navigation ***/
+
+    #navigation ul {
+    	display: block;
+    	list-style-type: none;
+
+  }
+  #navigation ul li a {
+
+  	background:#041D23;
+  	width:200px;
+  	line-height:36px;
+  	padding-top:10px;
+    height: 20px;
+    background:#041D23;
+    text-align:center;
+    text-decoration:none;
+    color:#FBF8D3;
+    font-family:'raleway';
+    font-size: 20px;
+    padding:0;
+    margin-left: 250px;
+}
+
+#navigation ul li {
+  border-bottom: 1px solid #FFF;
+    height:20px;
+    margin-top: -10px;
+}
+
+ #navigation ul li a:hover{
+   border-radius: 0;
+   height:0;
+  color: #88C43F;
+}
+
+.submenu{
+  visibility: hidden;
+}
+
+/*** about me ***/
+#aboutme h2{
+padding-top:50px;
+font-size: 60px;
+margin-left: 40px;
+}
+
+#aboutme{
+padding: 0;
+padding-top:20px;
+
+}
+
+#portrait {
+visibility: hidden;
+float:none;
+padding:0;
+}
+
+#aboutme .about1 {
+margin-top: -210px;
+padding: 20px;
+width: 400px;
+text-align: left;
+font-size: 14px;
+}
+
+#aboutme .about2 {
+margin-top: -20px;
+padding: 0 20px 0 20px;
+width: 400px;
+text-align: left;
+font-size: 14px;
+}
+
+#aboutme .about3 {
+margin-top: 0px;
+padding: 0 20px 0px 20px;
+width: 400px;
+text-align: left;
+font-size: 14px;
+}
+#aboutme a {
+padding-left: 65px;
+  color: #86CEEB;
+}
+#aboutme a, footer a{
+text-decoration: none;
+}
+
+#aboutme a:hover{
+text-decoration: none;
+color: #88C43F;
+}
+
+  /*** Portfolio Page ***/
+  #work aside {
+
+      padding:0;
+      background: #FBF8D3;
+    }
+
+#work{
+  padding-left:20px;
+}
+#work p{
+  margin:0;
+  width: 500px;
+  margin-top: -20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#work img{
+  margin-left: 15px;
+  margin-bottom: 30px;
+  width:37%;
+  display:block;
+  border-radius: 0;
+  opacity: 1;
+}
+
+#work img:hover{
+ padding: 10px;
+  border-radius: 30%;
+  width: 37%;
+  color: #FBF8D3;
+  opacity: .5;
+}
+
+/*** projects ***/
+#project1, #project2, #project3, #project4,#project5, #project6, #project7, #project8, #project9{
+ width:400px;
+ background: #FFF;
+}
+
+#project1 article, #project2 article, #project3 article, #project4 article, #project5 article, #project6 article, #project7 article, #project8 article, #project9 article{
+  width: 500px;
+  margin: 0;
+  display:flex;
+    margin-top: -20px;
+  padding: 0;
+  flex-direction: column;
+}
+
+
+
+#project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p,#project7 p, #project8 p, #project9 p{
+margin-left: 0px;
+}
+
+#project7 div, .specialproject, .entry{
+  margin-left:0;
+  padding-right: 0;
+}
+/*** aside ***/
+
+.up {
+visibility: hidden;
+overflow:hidden;
+}
+
+aside a, aside p{
+  margin: 0;
+    font-size: 30px;
+    padding:0 0 0 20px;
+
+}
+
+aside{
+  padding:0;
+  background: #FFF;
+}
+
+footer {
+  height: 200px;
+  margin-top: -100px;
+  padding: 20px 0 20px 60px;
+  font-family: 'raleway';
+font-size: 20px;
+text-align: left;
+}
+
+footer a{
+  text-decoration: none;
+  color: #248F91;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #CC525B;
+}
+
+footer p{
+padding-top: 30px;
+line-height: 1.25em;
+}
+
+.footerimg{
+  display: none;
+}
+}
+
+@media only screen and (min-width: 600px){
+  body, .nav, ul{
+    max-width: 900px;
+  }
+  #navigation ul li a {
+  	display:block;
+  	background:#041D23;
+  	width:170px;
+  	height:50px;
+  	line-height:36px;
+  	padding-top:10px;
+  	text-align:center;
+  	text-decoration:none;
+  	color:#FBF8D3;
+    font-family:'raleway';
+    font-size: 20px;
+  }
+
+
+/*** Portfolio Page ***/
+#work img{
+  width:40%;
+}
+
+#work p{
+  margin-left: 100px;
+}
+
+.up{
+  display:none;
+}
+
+#work aside{
+  display:none;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px){
+  body{
+    max-width: 1100px;
+  }
+  #navigation ul li a {
+  	display:block;
+  	background:#041D23;
+  	width:180px;
+  	height:50px;
+  	line-height:36px;
+  	padding-top:10px;
+  	text-align:center;
+  	text-decoration:none;
+  	color:#FBF8D3;
+    font-family:'raleway';
+    font-size: 16px;
+  }
+
+h1, #project2 h1, #project3 h1 .specialheader2, .specialheader3, .specialheader4{
+    width:1100px;
+    padding: 0;
+    padding-top:125px;
+    padding-bottom: 175px;
+    width: 100%;
+  }
+
+h1 .specialheader2{
+  padding-top: 100px;
+}
+
+  #project2 h1{
+    width:100%;
+  }
+
+  #work img{
+    width:30%;
+  }
+
+  #work p{
+    margin-left: 200px;
+  }
+
+.up{
+  background: none;
+  display: block;
+}
+#work aside{
+  background: none;
+}
+
+
+.fas.fa-arrow-up{
+  margin-top:35px;
+  margin-left: -130px;
+}
+
+}

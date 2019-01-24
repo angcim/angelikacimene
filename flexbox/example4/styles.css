@@ -1,0 +1,51 @@
+main {
+  background-color: white;
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+  display: block;
+  font-family: arial;
+}
+
+header, footer {
+  padding: 50px;
+  background-color: azure;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+#one {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#one article {
+  background-color: bisque;
+  width: 31.5%;
+}
+
+#one article:nth-child(2) {
+  background-color: beige;
+}
+
+#two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+#two h2 {
+  flex: 100%;
+  text-align: center;
+}
+
+#two article {
+  width: 48%
+}

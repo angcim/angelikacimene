@@ -1,0 +1,36 @@
+main {
+  background-color: white;
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+  display: block;
+  font-family: arial;
+}
+
+header, footer {
+  padding: 50px;
+  background-color: azure;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+section {
+  background-color: aqua;
+  display: flex;
+  padding: 20px;
+}
+
+aside {
+  background-color: beige;
+  padding: 20px;
+  flex: 1;
+}
+
+article {
+  background-color: bisque;
+  padding: 20px;
+  flex: 2;
+}
